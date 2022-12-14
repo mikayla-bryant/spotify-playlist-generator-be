@@ -66,7 +66,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>app.com.mbryant.spotifyplaylistgenerator.SpotifyPlaylistGeneratorApplicationTests</mainClass>
+                            <mainClass>app.com.mbryant.spotifyplaylistgenerator.SpotifyPlaylistGeneratorApplication</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
