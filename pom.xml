@@ -10,6 +10,7 @@
     </parent>
     <groupId>com.mbryant</groupId>
     <artifactId>spotify-playlist-generator</artifactId>
+    <packaging>jar</packaging>
     <version>0.0.1-SNAPSHOT</version>
     <name>spotify-playlist-generator</name>
     <description>Demo project for Spring Boot</description>
