@@ -18,7 +18,7 @@ public class SpotifyService
 {
     //    Create the redirect URI for spotify API
     private final URI redirectUri = SpotifyHttpManager
-            .makeUri( "http://localhost:3000" + Constants.REDIRECT);
+            .makeUri( "https://mikayla-bryant.github.io/spotify-playlist-generator" + Constants.REDIRECT);
 
 
     //    Create the spotifyAPI wrapper instance for future usage
