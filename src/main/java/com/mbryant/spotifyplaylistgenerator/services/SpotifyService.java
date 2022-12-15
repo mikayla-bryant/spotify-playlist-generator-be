@@ -17,8 +17,10 @@ import java.net.URI;
 public class SpotifyService
 {
     //    Create the redirect URI for spotify API
+    // https://spotifyplaylistgenerator.azurewebsites.net
+    // http://localhost:3000
     private final URI redirectUri = SpotifyHttpManager
-            .makeUri( "https://spotifyplaylistgenerator.azurewebsites.net" + Constants.REDIRECT);
+            .makeUri( "https://spotifyplaylistgenerator.azurewebsites.net");
 
 
     //    Create the spotifyAPI wrapper instance for future usage
