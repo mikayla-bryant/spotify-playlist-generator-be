@@ -18,7 +18,7 @@ public class SpotifyService
 {
     //    Create the redirect URI for spotify API
     private final URI redirectUri = SpotifyHttpManager
-            .makeUri( "https://spotifyplaylistgenerator.azurewebsites.net/" + Constants.REDIRECT);
+            .makeUri( "https://spotifyplaylistgenerator.azurewebsites.net" + Constants.REDIRECT);
 
 
     //    Create the spotifyAPI wrapper instance for future usage
